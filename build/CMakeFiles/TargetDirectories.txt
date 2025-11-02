@@ -1,0 +1,3 @@
+/home/ninjadwrex/Documents/InterferencePatters/build/CMakeFiles/DiffPatternsJoy.dir
+/home/ninjadwrex/Documents/InterferencePatters/build/CMakeFiles/edit_cache.dir
+/home/ninjadwrex/Documents/InterferencePatters/build/CMakeFiles/rebuild_cache.dir
