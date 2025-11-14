@@ -54,20 +54,20 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ninjadwrex/Documents/InterferencePatters/src
+CMAKE_SOURCE_DIR = /home/ninjadwrex/Documents/InterferencePatters/DiffractionPatterns/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ninjadwrex/Documents/InterferencePatters/build
+CMAKE_BINARY_DIR = /home/ninjadwrex/Documents/InterferencePatters/DiffractionPatterns/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/DiffPatternsJoy.dir/all
+all: CMakeFiles/DiffPatternsModeller.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/DiffPatternsJoy.dir/codegen
+codegen: CMakeFiles/DiffPatternsModeller.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -75,40 +75,40 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/DiffPatternsJoy.dir/clean
+clean: CMakeFiles/DiffPatternsModeller.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/DiffPatternsJoy.dir
+# Target rules for target CMakeFiles/DiffPatternsModeller.dir
 
 # All Build rule for target.
-CMakeFiles/DiffPatternsJoy.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DiffPatternsJoy.dir/build.make CMakeFiles/DiffPatternsJoy.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DiffPatternsJoy.dir/build.make CMakeFiles/DiffPatternsJoy.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ninjadwrex/Documents/InterferencePatters/build/CMakeFiles --progress-num=1,2 "Built target DiffPatternsJoy"
-.PHONY : CMakeFiles/DiffPatternsJoy.dir/all
+CMakeFiles/DiffPatternsModeller.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DiffPatternsModeller.dir/build.make CMakeFiles/DiffPatternsModeller.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DiffPatternsModeller.dir/build.make CMakeFiles/DiffPatternsModeller.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ninjadwrex/Documents/InterferencePatters/DiffractionPatterns/build/CMakeFiles --progress-num=1,2 "Built target DiffPatternsModeller"
+.PHONY : CMakeFiles/DiffPatternsModeller.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/DiffPatternsJoy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ninjadwrex/Documents/InterferencePatters/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/DiffPatternsJoy.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ninjadwrex/Documents/InterferencePatters/build/CMakeFiles 0
-.PHONY : CMakeFiles/DiffPatternsJoy.dir/rule
+CMakeFiles/DiffPatternsModeller.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ninjadwrex/Documents/InterferencePatters/DiffractionPatterns/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/DiffPatternsModeller.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ninjadwrex/Documents/InterferencePatters/DiffractionPatterns/build/CMakeFiles 0
+.PHONY : CMakeFiles/DiffPatternsModeller.dir/rule
 
 # Convenience name for target.
-DiffPatternsJoy: CMakeFiles/DiffPatternsJoy.dir/rule
-.PHONY : DiffPatternsJoy
+DiffPatternsModeller: CMakeFiles/DiffPatternsModeller.dir/rule
+.PHONY : DiffPatternsModeller
 
 # codegen rule for target.
-CMakeFiles/DiffPatternsJoy.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DiffPatternsJoy.dir/build.make CMakeFiles/DiffPatternsJoy.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ninjadwrex/Documents/InterferencePatters/build/CMakeFiles --progress-num=1,2 "Finished codegen for target DiffPatternsJoy"
-.PHONY : CMakeFiles/DiffPatternsJoy.dir/codegen
+CMakeFiles/DiffPatternsModeller.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DiffPatternsModeller.dir/build.make CMakeFiles/DiffPatternsModeller.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ninjadwrex/Documents/InterferencePatters/DiffractionPatterns/build/CMakeFiles --progress-num=1,2 "Finished codegen for target DiffPatternsModeller"
+.PHONY : CMakeFiles/DiffPatternsModeller.dir/codegen
 
 # clean rule for target.
-CMakeFiles/DiffPatternsJoy.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DiffPatternsJoy.dir/build.make CMakeFiles/DiffPatternsJoy.dir/clean
-.PHONY : CMakeFiles/DiffPatternsJoy.dir/clean
+CMakeFiles/DiffPatternsModeller.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DiffPatternsModeller.dir/build.make CMakeFiles/DiffPatternsModeller.dir/clean
+.PHONY : CMakeFiles/DiffPatternsModeller.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

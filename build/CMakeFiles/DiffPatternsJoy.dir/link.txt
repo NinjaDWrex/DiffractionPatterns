@@ -1,1 +1,0 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/DiffPatternsJoy.dir/link.d CMakeFiles/DiffPatternsJoy.dir/main.cpp.o -o DiffPatternsJoy  /usr/lib/libraylib.so -L/usr/lib -lraylib

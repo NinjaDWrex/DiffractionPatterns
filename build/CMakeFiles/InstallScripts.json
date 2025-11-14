@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/ninjadwrex/Documents/InterferencePatters/build/cmake_install.cmake"
+		"/home/ninjadwrex/Documents/InterferencePatters/DiffractionPatterns/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

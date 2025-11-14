@@ -1,1 +1,0 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/Hello.dir/link.d CMakeFiles/Hello.dir/main.cpp.o -o Hello  /usr/lib/libraylib.so -L/usr/lib -lraylib
