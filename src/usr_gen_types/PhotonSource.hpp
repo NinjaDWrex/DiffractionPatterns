@@ -2,7 +2,7 @@
 #include "raylib.h"
 #include "WavelengthToRGB.hpp"
 
-class WaveSource {
+class PhotonSource {
   private:
     float waveLength;
     float radius;

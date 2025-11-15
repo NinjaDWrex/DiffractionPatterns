@@ -4,14 +4,13 @@
  */
 #pragma once
 #include "raylib.h"
+#include "line.hpp"
 
 class LightRay;
-
 class Slit{
   private:
-    float MaxDist(LightRay *ray);
+    float MaxDist(Photon *photon);
+    Line slitRep;
   public:
-    Vector2 Pos1;
-    Vector2 Pos2;
-    bool CheckIfPassed(LightRay *ray);
+    bool CheckIfPassed(Photon *photon);
 };

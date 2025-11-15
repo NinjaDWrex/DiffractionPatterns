@@ -5,7 +5,7 @@
 #include <vector>
 #include "Slit.hpp"
 
-class LightRay {
+class Photon {
   private:
     Vector2 Pos;
     Vector2 Velocity;
@@ -20,9 +20,9 @@ class LightRay {
     }
     
   public:
-    WaveSource *ParentSource;
+    PhotonSource *ParentSource;
     float DistanceTravelled;
-    LightRay(Vector2 startPos, Vector2 startVelocity, int wavelength, Color c, WaveSource *p){
+    Photon(Vector2 startPos, Vector2 startVelocity, int wavelength, Color c, WaveSource *p){
       Pos = startPos;
       Velocity = startVelocity;
       Wavelength = wavelength;
