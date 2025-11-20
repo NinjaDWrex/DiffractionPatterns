@@ -7,7 +7,6 @@
 
 class Photon {
   private:
-    Vector2 Pos;
     Vector2 Velocity;
     int Wavelength;
     Color color;
@@ -20,6 +19,7 @@ class Photon {
     }
     
   public:
+    Vector2 Pos;
     PhotonSource *ParentSource;
     float DistanceTravelled;
     Photon(Vector2 startPos, Vector2 startVelocity, int wavelength, Color c, WaveSource *p){
