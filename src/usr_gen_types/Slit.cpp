@@ -3,7 +3,7 @@
  *11/11/2025
  */
 #include "Slit.hpp"
-#include "Ray.hpp"
+#include "Photon.hpp"
 #include "raymath.h"
 #include "raylibAddons.hpp"
 #include <algorithm>

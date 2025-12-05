@@ -3,8 +3,9 @@
  *11/11/2025
  */
 #pragma once
-#include "raylib.h"
-#include "line.hpp"
+#include "raylibAddons.hpp"
+
+class Photon;
 
 class LightRay;
 class Slit{

@@ -1,5 +1,5 @@
 #pragma once
-#include "WaveSource.hpp"
+#include "PhotonSource.hpp"
 #include "raylib.h"
 #include "raymath.h"
 #include <vector>
@@ -22,7 +22,7 @@ class Photon {
     Vector2 Pos;
     PhotonSource *ParentSource;
     float DistanceTravelled;
-    Photon(Vector2 startPos, Vector2 startVelocity, int wavelength, Color c, WaveSource *p){
+    Photon(Vector2 startPos, Vector2 startVelocity, int wavelength, Color c, PhotonSource *p){
       Pos = startPos;
       Velocity = startVelocity;
       Wavelength = wavelength;

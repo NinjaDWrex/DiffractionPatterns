@@ -20,7 +20,7 @@ class PhotonSource {
 
   public:
     Vector2 centerPos;
-    WaveSource(float wl, Vector2 CenterPos){
+    PhotonSource(float wl, Vector2 CenterPos){
       waveLength = wl;
       centerPos = CenterPos;
     }
