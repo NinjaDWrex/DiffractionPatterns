@@ -44,15 +44,15 @@ class Photon {
     }
 
     Slit ClosestSlit(){
-      float minDist = 999999999f;
-      Slit smallest;
+      float minDist = 999999999.0;
+      Slit smallest = slits[0];
       for (auto s : slits){
         float midPointX = (s.slitRep.p1.x + s.slitRep.p2.x) / 2;
         float midPointY = (s.slitRep.p1.y + s.slitRep.p2.y) / 2;
         float dist = Vector2Distance(Pos, {midPointX, midPointY});
         if (minDist > dist) {
             minDist = dist;
-            smallest = s;
+            Slit smallest = s;
            }
       }
       return smallest;
@@ -60,7 +60,7 @@ class Photon {
 
     void UpdateVelocity(){
       //check if it has passed the closest slit
-      Vector2 closestSlit = ClosestSlit();
+      Slit closestSlit = ClosestSlit();
       if (closestSlit.CheckIfPassed(this) && !passed){
         float angle = generate_angle();
         Velocity = Vector2Rotate(Velocity, angle);

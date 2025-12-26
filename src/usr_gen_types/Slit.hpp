@@ -11,7 +11,7 @@ class LightRay;
 class Slit{
   private:
     float MaxDist(Photon *photon);
-    Line slitRep;
   public:
     bool CheckIfPassed(Photon *photon);
+    Line slitRep;
 };
